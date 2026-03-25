@@ -6,6 +6,7 @@ import TechStack from './components/TechStack';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Profiles from './components/Profiles';
+import Certificates from './components/Certificates';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import CustomCursor from './components/CustomCursor';
@@ -29,6 +30,7 @@ function App() {
               <Skills />
               <Projects />
               <Profiles />
+              <Certificates />
               <Contact />
               <Footer />
             </div>

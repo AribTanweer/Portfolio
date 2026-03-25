@@ -17,6 +17,7 @@ export default function Header() {
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
     { name: 'Profiles', href: '#profiles' },
+    { name: 'Certifications', href: '#certificates' },
   ];
 
   return (
