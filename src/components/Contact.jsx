@@ -26,7 +26,7 @@ export default function Contact() {
         setFormState('error');
         setTimeout(() => setFormState('idle'), 3000);
       }
-    } catch (err) {
+    } catch (_err) {
       setFormState('error');
       setTimeout(() => setFormState('idle'), 3000);
     }

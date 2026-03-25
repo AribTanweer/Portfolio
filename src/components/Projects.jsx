@@ -64,7 +64,7 @@ export default function Projects() {
       </motion.div>
       
       <div className="flex flex-col gap-0 border border-border-color">
-        {projects.map((project, index) => {
+        {projects.map((project) => {
           const Icon = project.icon;
           return (
             <motion.div 

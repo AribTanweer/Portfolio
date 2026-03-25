@@ -1,23 +1,22 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState } from 'react';
 
 const ThemeContext = createContext();
 
+// eslint-disable-next-line react-refresh/only-export-components
 export function useTheme() {
   return useContext(ThemeContext);
 }
 
 export function ThemeProvider({ children }) {
-  const [theme, setTheme] = useState('dark');
-
-  useEffect(() => {
+  const [theme, setTheme] = useState(() => {
     const stored = localStorage.getItem('portfolio_theme');
     if (stored === 'light') {
-      setTheme('light');
       document.body.classList.add('light');
-    } else {
-      document.body.classList.remove('light');
+      return 'light';
     }
-  }, []);
+    document.body.classList.remove('light');
+    return 'dark';
+  });
 
   const toggleTheme = () => {
     setTheme((prev) => {

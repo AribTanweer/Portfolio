@@ -21,7 +21,7 @@ export default function Profiles() {
         } else {
           setStats(prev => ({ ...prev, leetcode: 'Active' }));
         }
-      } catch (err) {
+      } catch (_err) {
         setStats(prev => ({ ...prev, leetcode: 'Active' }));
       }
 
@@ -35,7 +35,7 @@ export default function Profiles() {
         } else {
           setStats(prev => ({ ...prev, github: 'Active' }));
         }
-      } catch (err) {
+      } catch (_err) {
         setStats(prev => ({ ...prev, github: 'Active' }));
       }
     };
