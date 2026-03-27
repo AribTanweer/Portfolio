@@ -55,7 +55,7 @@ export default function Hero() {
           View Work
         </a>
         <a 
-          href="https://drive.google.com/file/d/1_2iMuLPm3hDQXRTk4bdZ1tPGQEsMEFfm/view?usp=sharing" 
+          href="https://drive.google.com/file/d/1GdmbTSzBcdPuGkcDiJPHudw3b5JMVOvf/view?usp=sharing" 
           target="_blank"
           rel="noopener noreferrer"
           className="bg-foreground text-background hover:opacity-90 px-8 py-4 font-mono text-sm uppercase tracking-widest font-bold transition-all duration-300 flex items-center justify-center gap-2"
