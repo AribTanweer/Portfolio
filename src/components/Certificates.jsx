@@ -6,22 +6,22 @@ const certificates = [
   {
     name: 'Cloud Computing',
     issuer: 'NPTEL',
-    link: 'https://drive.google.com/drive/u/0/folders/16tcK3soOnGh2kdx16AJBsLHSpWuUqC9A?ths=true',
+    link: 'https://drive.google.com/file/d/1JgnXFQYizwzHL-18EpxZHWjAncu5vw57/view?usp=sharing',
   },
   {
     name: 'Data Structures and Algorithms in C++',
     issuer: 'CipherSchools',
-    link: 'https://drive.google.com/drive/u/0/folders/16tcK3soOnGh2kdx16AJBsLHSpWuUqC9A?ths=true',
+    link: 'https://drive.google.com/file/d/11OgzrsHFrjg8OyjOKjpimmniocDXP0r2/view?usp=sharing',
   },
   {
     name: 'C Programming',
     issuer: 'CipherSchools',
-    link: 'https://drive.google.com/drive/u/0/folders/16tcK3soOnGh2kdx16AJBsLHSpWuUqC9A?ths=true',
+    link: 'https://drive.google.com/file/d/12ULVmgdNYOgz8s0F9tKTH3rGYJ_5AfPx/view?usp=sharing',
   },
   {
     name: 'Responsive Web Design',
     issuer: 'freeCodeCamp',
-    link: 'https://drive.google.com/drive/u/0/folders/16tcK3soOnGh2kdx16AJBsLHSpWuUqC9A?ths=true',
+    link: 'https://drive.google.com/file/d/1OovHGRYQA0FH5lldTj9gZ6YwsPV3M6rf/view?usp=sharing',
   },
 ];
 
